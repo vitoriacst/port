@@ -29,6 +29,7 @@ li{
   color: rgb(255, 255, 255);
   font-size: 30px;
   text-align: justify;
+  cursor: pointer;
     
 }  
 h3{
@@ -88,7 +89,8 @@ inframe{
  text-align: justify;
 }
 #fotinha{
- border-radius:100px;
+ border-radius:200px;
+ width: 400px;
 }
 #github{
  border-radius: 100px;
