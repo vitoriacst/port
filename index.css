@@ -1,9 +1,9 @@
 body{
     background-color:#a3d4eb;
-   xbackground-image:url(https://i.pinimg.com/originals/db/b5/9d/dbb59d737ed38a46a30a7a638fa0c77a.jpg);
-   background-repeat: no-repeat;
+    background-image:url(https://i.pinimg.com/originals/db/b5/9d/dbb59d737ed38a46a30a7a638fa0c77a.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-   text-align: center;
+    text-align: center;
      }
 h1{
     color:rgb(204, 121, 121);
@@ -30,7 +30,8 @@ li{
   font-size: 30px;
   text-align: justify;
   cursor: pointer;
-    
+  padding: 3px;
+  transition: .3s;  
 }  
 h3{
   color:rgb(204, 121, 121);
@@ -65,11 +66,10 @@ div{
  /* size: 100px; */
  box-shadow: 5px 5px 5px white;
  border-radius: 10px;
- 
- 
-  ;
+
   background-image: url();
  
+  transition: .3s;
 
 }
 div:hover{
@@ -117,6 +117,9 @@ figure {
   color: rgb(255, 255, 255);
 }
 #githubinho{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: rgb(204, 121, 121);
  width:500px;
  /* left: 100px; */
@@ -127,6 +130,17 @@ figure {
  box-shadow: 5px 5px 5px white;
  border-radius: 10px;
 }
+#githubinho li {
+  list-style: none;
+}
+#githubinho li:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+#githubinho:nth-child(2) {
+  justify-content: center;
+}
+
 nav ul{
   background-color: rgb(197, 187, 196);
 width: 3000px;
